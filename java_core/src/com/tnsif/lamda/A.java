@@ -1,5 +1,7 @@
 package com.tnsif.lamda;
 
-public class A {
+@FunctionalInterface
 
+public interface A {
+	public void show();
 }
